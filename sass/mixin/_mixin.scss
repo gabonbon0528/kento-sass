@@ -1,33 +1,24 @@
-@mixin center($w, $color:null){
-    margin: auto;
-    width: $w;
-    background-color: $color;
-}
-
-.a{
-    @include center(100px, tomato);
-}
-
-.b{
-    @include center(300px);
-}
-
-@mixin btn($style, $w:120px, $color:red){
-    .btn_#{$style}{
-        padding: 10px 20px;
+@mixin btn($style, $fontSize, $lineHeight){
+    .btn-#{$style}{
+        line-height: $lineHeight;
+        padding: 10px 40px;
         text-align: center;
-        background-color: $bgc;
-        border-radius: 5px;
-        max-width: $w;
+        font-size: $fontSize;
+        letter-spacing: 1px;
+        background-color: $primary;
+        color: $secondary;
+        border-radius: 8px;
         cursor: pointer;
         transition: all .3s ease;
-
+    
         @content;
-
+    
         &:hover{
-            background-color: darken($bgc, 10);
+            background-color: darken($primary, 8%);
         }
+    
     }
+    
 }
 
 // layout
