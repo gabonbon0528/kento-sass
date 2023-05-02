@@ -1,0 +1,69 @@
+@mixin center($w, $color:null){
+    margin: auto;
+    width: $w;
+    background-color: $color;
+}
+
+.a{
+    @include center(100px, tomato);
+}
+
+.b{
+    @include center(300px);
+}
+
+@mixin btn($style, $w:120px, $color:red){
+    .btn_#{$style}{
+        padding: 10px 20px;
+        text-align: center;
+        background-color: $bgc;
+        border-radius: 5px;
+        max-width: $w;
+        cursor: pointer;
+        transition: all .3s ease;
+
+        @content;
+
+        &:hover{
+            background-color: darken($bgc, 10);
+        }
+    }
+}
+
+// layout
+@mixin layout($w){
+    @if $w == 100{
+        width: 100%;
+    }@else{
+        width: $w;
+        margin: auto;
+    }
+}
+
+section{
+    @include layout(1366px);
+}
+
+//rwd
+//桌機
+
+//手機
+// 斷點 放到變數檔案去
+// $m-breakpoint: 720px;
+// $t-breakpoint: 1000px;
+
+@mixin m(){
+    @media all and (max-width: $m-breakpoint){
+        //code
+        @content;
+    }
+}
+
+//平板
+@mixin t(){
+    @media all and (max-width: $t-breakpoint){
+        //code
+        @content;
+    }
+    
+}
