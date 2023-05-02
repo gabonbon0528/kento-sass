@@ -19,6 +19,9 @@ body {
   width: 1366;
   margin: auto;
 }
+
+
+
 @media all and (max-width: 720px) {
   .fixed {
     width: 100%;
@@ -61,7 +64,10 @@ footer {
   font-size: 12px;
 }
 
-header {
+
+
+
+/* header {
   width: 100%;
   margin: 0 auto;
 }
@@ -78,6 +84,6 @@ header nav ul {
 }
 header nav ul li {
   width: 120px;
-}
+} */
 
 /*# sourceMappingURL=style.css.map */

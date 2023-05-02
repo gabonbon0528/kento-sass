@@ -1,3 +1,4 @@
+//btn
 @mixin btn($style, $fontSize, $lineHeight){
     .btn-#{$style}{
         line-height: $lineHeight;
@@ -16,10 +17,17 @@
         &:hover{
             background-color: darken($primary, 8%);
         }
-    
     }
-    
 }
+
+
+//tag
+
+
+
+
+
+
 
 // layout
 @mixin layout($w){
@@ -34,6 +42,8 @@
 section{
     @include layout(1366px);
 }
+
+
 
 //rwd
 //桌機
