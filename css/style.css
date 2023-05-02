@@ -4,7 +4,6 @@ section {
 }
 
 body {
-  font-size: 16px;
   background-color: #F4F1E8;
 }
 
@@ -55,6 +54,30 @@ body {
 }
 .btn-m:hover {
   background-color: #a83330;
+}
+
+.tag-l {
+  display: block;
+  line-height: 55px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+.tag-m {
+  display: block;
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
 }
 
 footer {

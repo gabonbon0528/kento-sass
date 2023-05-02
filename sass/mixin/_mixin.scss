@@ -16,9 +16,23 @@
         &:hover{
             background-color: darken($primary, 8%);
         }
-    
     }
+}
+
+@mixin tag($style, $fontSize, $lineHeight){
+    .tag-#{$style}{
+        display: block;
+        line-height: $lineHeight;
+        padding: 10px 40px;
+        text-align: center;
+        font-size: $fontSize;
+        letter-spacing: 1px;
+        background-color: $primary;
+        color: $secondary;
+        transition: all .3s ease;
     
+        @content;
+    }
 }
 
 // layout
