@@ -35,27 +35,17 @@
     }
 }
 
-// layout
-@mixin layout($w){
-    @if $w == 100{
-        width: 100%;
-    }@else{
-        width: $w;
-        margin: auto;
-    }
+@mixin flexBox($direction: row){
+    display: flex;
+    flex-direction: $direction;
 }
 
-section{
-    @include layout(1366px);
+@mixin flexAlign($alignItems, $justifyContent) {
+    align-items: $alignItems;
+    justify-content: $justifyContent;
 }
 
-//rwd
-//桌機
 
-//手機
-// 斷點 放到變數檔案去
-// $m-breakpoint: 720px;
-// $t-breakpoint: 1000px;
 
 @mixin m(){
     @media all and (max-width: $m-breakpoint){
@@ -64,7 +54,6 @@ section{
     }
 }
 
-//平板
 @mixin t(){
     @media all and (max-width: $t-breakpoint){
         //code
