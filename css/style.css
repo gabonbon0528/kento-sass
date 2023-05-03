@@ -9,15 +9,10 @@ body {
   width: 100%;
 }
 
-.fixed {
+.container {
   max-width: 1366px;
   width: 70%;
   margin: 0 auto;
-}
-
-a {
-  text-decoration: none;
-  color: #414143;
 }
 
 .btn-l {
@@ -175,10 +170,20 @@ footer p {
 header {
   width: 100%;
 }
+header span {
+  display: none;
+}
+header .member-center {
+  display: none;
+}
+header a {
+  text-decoration: none;
+  color: #414143;
+  cursor: pointer;
+}
 header .container {
-  width: 70%;
-  margin: 0 auto;
   display: flex;
+  flex-direction: row;
   padding: 10px 0;
   align-items: center;
 }
@@ -187,15 +192,17 @@ header .container img {
 }
 header .container .nav-bar {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
   width: 80%;
 }
 header .container .nav-bar .nav {
   display: flex;
-  width: 70%;
-  justify-content: space-around;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-around;
+  width: 70%;
   margin-top: 15px;
 }
 header .container .nav-bar .nav li {
@@ -203,26 +210,17 @@ header .container .nav-bar .nav li {
   text-align: center;
   font-size: 16px;
 }
-header .container .nav-bar .nav a {
-  text-decoration: none;
-  color: #414143;
-  cursor: pointer;
-}
 header .container .nav-bar .nav-btn {
   display: flex;
 }
-header .container .nav-bar .nav-btn button {
-  background-color: transparent;
-  cursor: pointer;
+header .container .nav-bar .nav-btn li {
   border: 1px solid #414143;
-  padding: 5px;
-  margin: 15px 10px 5px 10px;
-  font-size: 14px;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 0 5px;
+  font-size: 16px;
 }
-header .member-center {
-  display: none;
-}
-
 /*header end =========================*/
 
 /*# sourceMappingURL=style.css.map */
