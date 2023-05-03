@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Error: Missing argument $fontSize.
  *   ,--> sass\component\_btn.scss
  * 1 | @include btn(l, 20px, 50px);
@@ -20,4 +21,416 @@ body::before {
   margin-bottom: 1em;
   border-bottom: 2px solid black;
   content: "Error: Missing argument $fontSize.\a   \250c \2500 \2500 > sass\\component\\_btn.scss\a 1 \2502  @include btn(l, 20px, 50px);\d\a   \2502  ^^^^^^^^^^^^^^^^^^^^^^^^^^^ invocation\a   \2575 \a   \250c \2500 \2500 > sass\\mixin\\_mixin.scss\a 2 \2502  @mixin btn($style, $importance, $lineHeight, $fontSize, $bgColor, $color){\d\a   \2502         \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  declaration\a   \2575 \a   sass\\component\\_btn.scss 1:1  btn()\a   sass\\component\\_btn.scss 1:1  @import\a   sass\\style.scss 10:9          root stylesheet";
+=======
+@charset "UTF-8";
+.col-1 {
+  width: calc((100% - 220px) / 12 * 1);
+  margin-right: 20px;
+  float: left;
+>>>>>>> gabi
 }
+.col-1:last-child {
+  margin-right: 0;
+}
+
+.col-2 {
+  width: calc((100% - 220px) / 12 * 2);
+  margin-right: 20px;
+  float: left;
+}
+.col-2:last-child {
+  margin-right: 0;
+}
+
+.col-3 {
+  width: calc((100% - 220px) / 12 * 3);
+  margin-right: 20px;
+  float: left;
+}
+.col-3:last-child {
+  margin-right: 0;
+}
+
+.col-4 {
+  width: calc((100% - 220px) / 12 * 4);
+  margin-right: 20px;
+  float: left;
+}
+.col-4:last-child {
+  margin-right: 0;
+}
+
+.col-5 {
+  width: calc((100% - 220px) / 12 * 5);
+  margin-right: 20px;
+  float: left;
+}
+.col-5:last-child {
+  margin-right: 0;
+}
+
+.col-6 {
+  width: calc((100% - 220px) / 12 * 6);
+  margin-right: 20px;
+  float: left;
+}
+.col-6:last-child {
+  margin-right: 0;
+}
+
+.col-7 {
+  width: calc((100% - 220px) / 12 * 7);
+  margin-right: 20px;
+  float: left;
+}
+.col-7:last-child {
+  margin-right: 0;
+}
+
+.col-8 {
+  width: calc((100% - 220px) / 12 * 8);
+  margin-right: 20px;
+  float: left;
+}
+.col-8:last-child {
+  margin-right: 0;
+}
+
+.col-9 {
+  width: calc((100% - 220px) / 12 * 9);
+  margin-right: 20px;
+  float: left;
+}
+.col-9:last-child {
+  margin-right: 0;
+}
+
+.col-10 {
+  width: calc((100% - 220px) / 12 * 10);
+  margin-right: 20px;
+  float: left;
+}
+.col-10:last-child {
+  margin-right: 0;
+}
+
+.col-11 {
+  width: calc((100% - 220px) / 12 * 11);
+  margin-right: 20px;
+  float: left;
+}
+.col-11:last-child {
+  margin-right: 0;
+}
+
+.col-12 {
+  width: calc((100% - 220px) / 12 * 12);
+  margin-right: 20px;
+  float: left;
+}
+.col-12:last-child {
+  margin-right: 0;
+}
+
+body {
+  background-color: #F4F1E8;
+  font-family: "Noto Sans TC", "微軟正黑體";
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.fixed {
+  max-width: 1366px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.btn-pri-l {
+  line-height: 50px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-pri-l:hover {
+  background-color: #a83330;
+}
+
+.btn-pri-m {
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-pri-m:hover {
+  background-color: #a83330;
+}
+
+.btn-sec-l {
+  line-height: 50px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  color: #C73E3A;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-sec-l:hover {
+  background-color: #C73E3A;
+  color: #fff;
+}
+
+.btn-sec-m {
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  color: #C73E3A;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-sec-m:hover {
+  background-color: #C73E3A;
+  color: #fff;
+}
+
+.btn-cancel-l {
+  line-height: 50px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #ECECEB;
+  color: #414143;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-cancel-l:hover {
+  background-color: #babab7;
+  color: #fff;
+}
+
+.btn-cancel-m {
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #ECECEB;
+  color: #414143;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-cancel-m:hover {
+  background-color: #babab7;
+  color: #fff;
+}
+
+.tag-l {
+  display: block;
+  line-height: 55px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+.tag-m {
+  display: block;
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+.textStyle {
+  width: 600px;
+  border: 1px solid #ECECEB;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+.textStyle:focus {
+  outline: none;
+}
+
+.textareaStyle {
+  border: 1px solid #ECECEB;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+.textareaStyle:focus {
+  outline: none;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+/*footer start =======================*/
+footer {
+  background-color: #fff;
+  width: 100%;
+}
+footer .container {
+  width: 70%;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container a {
+  text-decoration: none;
+  color: #414143;
+  cursor: pointer;
+}
+footer .container .logo {
+  height: 55px;
+  margin: 20px;
+}
+footer .container .social {
+  text-align: center;
+  margin-top: 10px;
+}
+footer .container .social i {
+  font-size: 40px;
+  margin: 0 20px;
+}
+footer .container .links {
+  display: flex;
+}
+footer .container .links li {
+  font-size: 20px;
+  margin: 30px;
+}
+footer .container .links li .pay {
+  width: 30px;
+  margin: 0 2px;
+}
+footer .container .links li input {
+  border: none;
+  border-bottom: 1px solid #414143;
+}
+footer .container .links li button {
+  background: transparent;
+  color: #414143;
+  border: none;
+  cursor: pointer;
+}
+footer p {
+  background-color: #fff;
+  text-align: center;
+  color: #ccc;
+}
+
+/*footer end =======================*/
+/*header start =========================*/
+header {
+  width: 100%;
+}
+header .container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  padding: 10px 0;
+  align-items: center;
+}
+header .container img {
+  height: 40px;
+}
+header .container .nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 80%;
+}
+header .container .nav-bar .nav {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+header .container .nav-bar .nav li {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+header .container .nav-bar .nav a {
+  text-decoration: none;
+  color: #414143;
+  cursor: pointer;
+}
+header .container .nav-bar .nav-btn {
+  display: flex;
+}
+header .container .nav-bar .nav-btn button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #414143;
+  padding: 5px;
+  margin: 15px 10px 5px 10px;
+  font-size: 14px;
+}
+header .member-center {
+  display: none;
+}
+
+/*header end =========================*/
+
+/*# sourceMappingURL=style.css.map */
