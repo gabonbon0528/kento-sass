@@ -1,3 +1,4 @@
+//btn
 @mixin btn($style, $fontSize, $lineHeight){
     .btn-#{$style}{
         line-height: $lineHeight;
@@ -16,6 +17,25 @@
         &:hover{
             background-color: darken($primary, 8%);
         }
+    }
+}
+
+
+//tag
+
+
+
+
+
+
+
+// layout
+@mixin layout($w){
+    @if $w == 100{
+        width: 100%;
+    }@else{
+        width: $w;
+        margin: auto;
     }
 }
 
@@ -45,6 +65,8 @@
     align-items: $alignItems;
     justify-content: $justifyContent;
 }
+
+
 
 @mixin m(){
     @media all and (max-width: $m-breakpoint){
