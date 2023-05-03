@@ -1,11 +1,7 @@
-section {
-  width: 1366px;
-  margin: auto;
-}
-
+@charset "UTF-8";
 body {
-  font-size: 16px;
   background-color: #F4F1E8;
+  font-family: "Noto Sans TC", "微軟正黑體";
 }
 
 .wrapper {
@@ -14,15 +10,8 @@ body {
 
 .fixed {
   max-width: 1366px;
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
-  width: 1366;
-  margin: auto;
-}
-@media all and (max-width: 720px) {
-  .fixed {
-    width: 100%;
-  }
 }
 
 .btn-l {
@@ -163,6 +152,54 @@ header .container .nav-bar .nav-btn button {
 }
 header .member-center {
   display: none;
+.tag-l {
+  display: block;
+  line-height: 55px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+.tag-m {
+  display: block;
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
 }
 
 /*header end =========================*/
