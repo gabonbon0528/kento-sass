@@ -21,24 +21,6 @@
 }
 
 
-//tag
-
-
-
-
-
-
-
-// layout
-@mixin layout($w){
-    @if $w == 100{
-        width: 100%;
-    }@else{
-        width: $w;
-        margin: auto;
-    }
-}
-
 @mixin tag($style, $fontSize, $lineHeight){
     .tag-#{$style}{
         display: block;
