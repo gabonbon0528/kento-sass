@@ -1,6 +1,18 @@
-input{
-    border: 1px solid #E0E0E0;
-    height: 35px;
+.textStyle{
+    width: 600px;
+    border: 1px solid $secondary;
+    height: 40px;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    &:focus{
+        outline: none;
+    }
+}
+
+.textareaStyle{
+    border: 1px solid $secondary;
+    height: 40px;
     box-sizing: border-box;
     padding: 10px;
     border-radius: 5px;
