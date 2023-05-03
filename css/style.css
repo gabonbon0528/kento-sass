@@ -48,7 +48,7 @@ body {
 
 .tag-l {
   display: block;
-  line-height: 55px;
+  line-height: 35px;
   padding: 10px 40px;
   text-align: center;
   font-size: 20px;
@@ -60,7 +60,7 @@ body {
 
 .tag-m {
   display: block;
-  line-height: 40px;
+  line-height: 20px;
   padding: 10px 40px;
   text-align: center;
   font-size: 16px;
@@ -68,6 +68,17 @@ body {
   background-color: #C73E3A;
   color: #ECECEB;
   transition: all 0.3s ease;
+}
+
+input {
+  border: 1px solid #E0E0E0;
+  height: 35px;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 5px;
+}
+input:focus {
+  outline: none;
 }
 
 h1 {
@@ -91,9 +102,13 @@ h4 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 1px;
   line-height: 1.5;
+}
+
+div {
+  width: 80px;
 }
 
 /*# sourceMappingURL=style.css.map */

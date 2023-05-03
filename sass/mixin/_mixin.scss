@@ -23,6 +23,7 @@
     .tag-#{$style}{
         display: block;
         line-height: $lineHeight;
+        // box-sizing: border-box;
         padding: 10px 40px;
         text-align: center;
         font-size: $fontSize;
@@ -45,19 +46,9 @@
     justify-content: $justifyContent;
 }
 
-
-
 @mixin m(){
     @media all and (max-width: $m-breakpoint){
         //code
         @content;
     }
-}
-
-@mixin t(){
-    @media all and (max-width: $t-breakpoint){
-        //code
-        @content;
-    }
-    
 }
