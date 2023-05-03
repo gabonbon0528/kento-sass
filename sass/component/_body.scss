@@ -1,15 +1,18 @@
-body {
+body{
     font-size: $fontSize;
+body {
     background-color: $bgc;
+    font-family: 'Noto Sans TC', '微軟正黑體';
 }
 
 .wrapper{
+    // max-width: ;
     width: 100%;
 }
 
 .fixed{
     max-width: 1366px;
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     @include layout(1366);
     @include m(){
@@ -17,9 +20,13 @@ body {
     }
 }
 
+<<<<<<< HEAD
 
 a{
     text-decoration: none;
     color: $fontColor;
     
 }
+=======
+}
+>>>>>>> master

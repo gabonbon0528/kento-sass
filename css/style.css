@@ -1,11 +1,7 @@
-section {
-  width: 1366px;
-  margin: auto;
-}
-
+@charset "UTF-8";
 body {
-  font-size: 16px;
   background-color: #F4F1E8;
+  font-family: "Noto Sans TC", "微軟正黑體";
 }
 
 .wrapper {
@@ -14,15 +10,8 @@ body {
 
 .fixed {
   max-width: 1366px;
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
-  width: 1366;
-  margin: auto;
-}
-@media all and (max-width: 720px) {
-  .fixed {
-    width: 100%;
-  }
 }
 
 .btn-l {
@@ -57,27 +46,162 @@ body {
   background-color: #a83330;
 }
 
+/*footer start =======================*/
 footer {
-  font-size: 12px;
+  background-color: #fff;
+  width: 100%;
+}
+footer .container {
+  width: 70%;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .container a {
+  text-decoration: none;
+  color: #414143;
+  cursor: pointer;
+}
+footer .container .logo {
+  height: 55px;
+  margin: 20px;
+}
+footer .container .social {
+  text-align: center;
+  margin-top: 10px;
+}
+footer .container .social i {
+  font-size: 40px;
+  margin: 0 20px;
+}
+footer .container .links {
+  display: flex;
+}
+footer .container .links li {
+  font-size: 20px;
+  margin: 30px;
+}
+footer .container .links li .pay {
+  width: 30px;
+  margin: 0 2px;
+}
+footer .container .links li input {
+  border: none;
+  border-bottom: 1px solid #414143;
+}
+footer .container .links li button {
+  background: transparent;
+  color: #414143;
+  border: none;
+  cursor: pointer;
+}
+footer p {
+  background-color: #fff;
+  text-align: center;
+  color: #ccc;
 }
 
+/*footer end =======================*/
+/*header start =========================*/
 header {
   width: 100%;
+}
+header .container {
+  width: 70%;
   margin: 0 auto;
+  display: flex;
+  padding: 15px 0;
 }
-header .logo {
-  width: 80px;
-  height: 80px;
+header .container img {
+  height: 45px;
 }
-header nav {
+header .container .nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+header .container .nav-bar .nav {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+}
+header .container .nav-bar .nav li {
   width: 100%;
-  height: 80px;
+  text-align: center;
+  font-size: 20px;
 }
-header nav ul {
-  list-style: none;
+header .container .nav-bar .nav a {
+  text-decoration: none;
+  color: #414143;
+  cursor: pointer;
 }
-header nav ul li {
-  width: 120px;
+header .container .nav-bar .nav-btn {
+  display: flex;
 }
+header .container .nav-bar .nav-btn button {
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #414143;
+  padding: 5px;
+  margin: 15px 10px 5px 10px;
+  font-size: 20px;
+}
+header .member-center {
+  display: none;
+.tag-l {
+  display: block;
+  line-height: 55px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+.tag-m {
+  display: block;
+  line-height: 40px;
+  padding: 10px 40px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  background-color: #C73E3A;
+  color: #ECECEB;
+  transition: all 0.3s ease;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 2px;
+}
+
+h4 {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+/*header end =========================*/
 
 /*# sourceMappingURL=style.css.map */

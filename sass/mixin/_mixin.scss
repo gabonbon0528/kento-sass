@@ -1,3 +1,4 @@
+//btn
 @mixin btn($style, $fontSize, $lineHeight){
     .btn-#{$style}{
         line-height: $lineHeight;
@@ -16,10 +17,17 @@
         &:hover{
             background-color: darken($primary, 8%);
         }
-    
     }
-    
 }
+
+
+//tag
+
+
+
+
+
+
 
 // layout
 @mixin layout($w){
@@ -31,17 +39,37 @@
     }
 }
 
-section{
-    @include layout(1366px);
+@mixin tag($style, $fontSize, $lineHeight){
+    .tag-#{$style}{
+        display: block;
+        line-height: $lineHeight;
+        padding: 10px 40px;
+        text-align: center;
+        font-size: $fontSize;
+        letter-spacing: 1px;
+        background-color: $primary;
+        color: $secondary;
+        transition: all .3s ease;
+    
+        @content;
+    }
 }
+
+@mixin flexBox($direction: row){
+    display: flex;
+    flex-direction: $direction;
+}
+
+@mixin flexAlign($alignItems, $justifyContent) {
+    align-items: $alignItems;
+    justify-content: $justifyContent;
+}
+
+
 
 //rwd
 //桌機
 
-//手機
-// 斷點 放到變數檔案去
-// $m-breakpoint: 720px;
-// $t-breakpoint: 1000px;
 
 @mixin m(){
     @media all and (max-width: $m-breakpoint){
@@ -50,7 +78,6 @@ section{
     }
 }
 
-//平板
 @mixin t(){
     @media all and (max-width: $t-breakpoint){
         //code

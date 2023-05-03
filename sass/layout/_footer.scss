@@ -1,3 +1,99 @@
+<<<<<<< HEAD
+/*footer start =======================*/
 footer{
-    font-size: 12px;
+    background-color: #fff;
+    width: 100%;
+    
+    // height: 565px;
+    // display: flex;
+
+    .container{
+        width: 70%;
+        padding: 50px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        a{
+            text-decoration: none;
+            color: $fontColor;
+            cursor: pointer;
+        }
+
+//左半部--------------------------
+
+        .logo{
+            height: 55px;
+            margin: 20px;
+        }
+
+        .social{
+            text-align: center;
+            margin-top: 10px;
+
+            i{
+                font-size: 40px;
+                margin: 0 20px;
+            }
+
+        }
+
+//右半部------------------------------
+
+        .links{
+            display: flex;
+
+            
+            li{
+                font-size: 20px;
+                margin: 30px;
+                // text-align: left;
+
+                .pay{
+                    width: 30px;
+                    margin: 0 2px;
+                }
+
+                input{
+                    border: none;
+                    border-bottom: 1px solid $fontColor;
+                
+                }
+
+                button{
+                    background: transparent;
+                    color: $fontColor;
+                    border: none;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+    }
+
+
+    p{
+        background-color: #fff;
+        text-align: center;
+        color: #ccc;
+    }
 }
+
+
+// 網路上有建議逐項 寫RWD
+$m-breakpoint:414px;
+
+@mixin m(){
+    @media all and (max-width: $m-breakpoint){
+        
+
+
+        @content;
+    }
+}
+
+/*footer end =======================*/
+
+=======
+>>>>>>> b80149d5a3a53075e38ac3b24989f1669ca684e3
