@@ -66,8 +66,6 @@
 
 }
 
-
-
 @mixin tag($style, $fontSize, $lineHeight){
     .tag-#{$style}{
         display: block;
